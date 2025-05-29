@@ -60,7 +60,7 @@ if not st.session_state['feedback_submitted']:
     paid = binary_input("Học thêm (paid)", ["yes", "no"])
     activities = binary_input("Hoạt động ngoại khóa (activities)", ["yes", "no"])
     nursery = binary_input("Đi học mẫu giáo (nursery)", ["yes", "no"])
-    higher = binary_input("Muốn học đại học (higher)", ["yes", "no"])
+    higher = binary_input("Có muốn học lên cao hơn không? (higher)", ["yes", "no"])
     internet = binary_input("Có internet ở nhà (internet)", ["yes", "no"])
     romantic = binary_input("Đang trong mối quan hệ yêu đương (romantic)", ["yes", "no"])
 
